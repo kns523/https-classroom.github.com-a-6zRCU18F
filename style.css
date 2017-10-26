@@ -1,0 +1,20 @@
+div.block {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    height: 100px;
+    font-size: 150%;
+    font-family: Arial;
+}
+
+div#1 {
+    background-color: #ff0000;
+}
+
+div#2 {
+    background-color: #462a86;
+}
+
+div#3 {
+    background-color: #3a857b;
+}
