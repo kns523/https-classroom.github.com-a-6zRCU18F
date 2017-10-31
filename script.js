@@ -6,7 +6,7 @@ function areaTriangle(b, h) {
     return areaT;
 }
 
-var areaT = ("The area of a triangle with a base of" + this.b + "and height of " + this.h + " is " + areaTriangle(b, h));
+var areaT = ("The area of a triangle with a base of" + this.b + " and a height of " + this.h + " is " + areaTriangle(b, h));
 
 document.getElementById("1").innerHTML = areaT;
 
