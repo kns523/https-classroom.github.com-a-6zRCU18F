@@ -9,7 +9,7 @@ function areaTriangle(b, h) {
 var calcArea = ("The area of a triangle with a base of " + this.b +
  " and a height of " + this.h + " is " + areaTriangle(b, h) + ".");
 
-document.getElementById("1").innerHTML = areaT;
+document.getElementById("1").innerHTML = calcArea;
 
 function calcHypotenuse(b, h) {
     var calcH = (Math.sqrt(b*b + h*h));
