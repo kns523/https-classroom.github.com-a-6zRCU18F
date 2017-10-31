@@ -6,7 +6,7 @@ function areaTriangle(b, h) {
     return areaT;
 }
 
-var areaT = ("The area of a triangle with a base of" + this.b + " and a height of " + this.h + " is " + areaTriangle(b, h));
+var areaT = ("The area of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + areaTriangle(b, h));
 
 document.getElementById("1").innerHTML = areaT;
 
@@ -16,6 +16,6 @@ function calcHypotenuse(b, h) {
 
 }
 
-var calcH = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + "is " + calcHypotenuse(b, h));
+var calcH = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h));
 
 document.getElementById("2").innerHTML = calcH;
