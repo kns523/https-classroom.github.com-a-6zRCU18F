@@ -36,3 +36,6 @@ var triangle = {
     drawIt: drawTriangle(this.b, this.h, this.canvasId),
 };
 
+var drawIt = drawTriangle(this.b, this.h, this.canvasId)
+
+
