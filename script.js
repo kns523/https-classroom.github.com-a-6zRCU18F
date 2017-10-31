@@ -16,7 +16,7 @@ function calcHypotenuse(b, h) {
     return calcH;  
 }
 
-var calcH = ("The hypotenuse of a triangle with a base of " + this.b +
+var calcH = ("The length of the hypotenuse of a triangle with a base of " + this.b +
  " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
 
 document.getElementById("2").innerHTML = calcH;
