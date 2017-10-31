@@ -1,19 +1,20 @@
-var base = 30;    //Base
-var height = 40;  //Height
+var b = 30;    //Base
+var h = 40;  //Height
 
-function areaTriangle(base, height) {
-    var areaT = 1/2 * (base * height);
+function areaTriangle(b, h) {
+    var areaT = 1/2 * (b * h);
     return areaT;
 }
 
-var areaT = ("The area of a triangle of this base and height is " + areaTriangle(base, height));
+var areaT = ("The area of a triangle of this base and height is " + areaTriangle(b, h));
 
 document.getElementById("1").innerHTML = areaT;
 
-var calcHypotenuse = function(b, h) {
-    (Math.sqrt(b) + Math.sqrt(h))
-    calcHypotenuse (b, h)
+function calcHypotenuse(b, h) {
+    var calcH = (Math.sqrt(b*b + h*h));
+    return calcH;  
 }
 
-var hypotenuse = calcHypotenuse (b, h);
-    
+var calcH = ("The hypotenuse of a triangle with a base of" + this.b + " and a height of" + this.h + "is " + calcHypotenuse(b, h));
+
+document.getElementById("2").innerHTML = calcH;
