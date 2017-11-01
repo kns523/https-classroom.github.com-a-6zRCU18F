@@ -12,7 +12,7 @@ function calcHypotenuse(b, h) {
     return calcH;  
 }
 
-var calcH = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
+var hypotenusPrompt = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
 
 document.getElementById("2").innerHTML = calcH;
 
@@ -32,10 +32,10 @@ var triangle = {
         drawTriangle(this.b, this.h, this.canvasId);
     }
 };
+var hypotenusePrompt = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse() + ".");
+var areaPrompt = ("The area of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + areaT() + ".");
 
-var areaPrompt =
+document.getElementById("3").innerHTML = areaPrompt = "<br>" = hypotenusePrompt;
 
-var calcH = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
-var areaT = ("The area of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + areaTriangle(b, h) + ".");
-
+triangle.drawIt();
 
