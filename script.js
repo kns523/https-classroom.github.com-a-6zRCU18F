@@ -5,16 +5,16 @@ var areaT = .5 * b * h;
 var areaPrompt = "The area of a triangle with a base of " + this.b +
  " and a height of " + this.h + " is " + areaT(b, h) + ".";
 
-document.getElementById("1").innerHTML = areaT;
+document.getElementById("1").innerHTML = areaPrompt;
 
 function calcHypotenuse(b, h) {
     var calcH = (Math.sqrt(b * b + h * h));
     return calcH;  
 }
 
-var hypotenusPrompt = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
+var hypotenusePrompt = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
 
-document.getElementById("2").innerHTML = calcH;
+document.getElementById("2").innerHTML = hypotenusePrompt;
 
 //Defines what a triangle is.
 var triangle = {
