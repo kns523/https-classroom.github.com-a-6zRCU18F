@@ -16,22 +16,24 @@ var calcH = ("The hypotenuse of a triangle with a base of " + this.b + " and a h
 
 document.getElementById("2").innerHTML = calcH;
 
+//Defines what a triangle is.
 var triangle = {
     base: 30,
     height: 40,
     canvasId: "canvas",
-    calcArea: function areaTriangle(b, h) {
-        var areaT = 1/2 * (this.b * this.h);
-        return areaT;
+    calcArea: function () {
+        return .5 * this.b * this.h;
     },
-    calcHypotenuse: function calcHypotenuse(b, h) {
-        var calcH = (Math.sqrt(this.b*this.b + this.h*this.h));
-        return calcHypotenuse;  
+    calcHypotenuse: function () {
+        return (Math.sqrt(this.b*this.b + this.h*this.h))
     },
-    drawIt: drawTriangle(this.b, this.h, this.canvasId),
+
+    drawIt: function() {
+        drawTriangle(this.b, this.h, this.canvasId);
+    }
 };
 
-var drawTriangle = (drawTriangle(this.b, this.h, this.canvasId))
+var areaPrompt =
 
 var calcH = ("The hypotenuse of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + calcHypotenuse(b, h) + ".");
 var areaT = ("The area of a triangle with a base of " + this.b + " and a height of " + this.h + " is " + areaTriangle(b, h) + ".");
